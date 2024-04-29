@@ -15,7 +15,7 @@ const icons: Icons = {
   jpeg: assets.image,
   jpg: assets.image,
   js: assets.javascript,
-  json: assets.nodejs,
+  json: assets.bracketsOrange,
   jsx: assets.react,
   md: assets.markdown,
   png: assets.image,

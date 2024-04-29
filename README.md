@@ -10,11 +10,11 @@ File and folder icons from [miguelsolorio/vscode-symbols](https://github.com/mig
 
 ### TODO
 
-- [] Migrate Codemirror to Monaco editor ASAP
-- [] Use Zustand to manage global state instead of React Context
-- [] Add tooltip to sidebar
-- [] Refactoring some code
-- [] Add themes
-- [] Add settings
-- [] Improve titlebar
-- [] Bug hunting and fixing
+- [ ] Migrate Codemirror to Monaco editor ASAP
+- [ ] Use Zustand to manage global state instead of React Context
+- [ ] Add tooltip to sidebar
+- [ ] Refactoring some code
+- [ ] Add themes
+- [ ] Add settings
+- [ ] Improve titlebar
+- [ ] Bug hunting and fixing

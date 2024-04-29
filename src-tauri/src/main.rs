@@ -5,12 +5,6 @@
 
 mod fc;
 
-// Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
-#[tauri::command]
-fn greet(name: &str) -> String {
-    format!("Hello, {}! You've been greeted from Rust!", name)
-}
-
 #[tauri::command]
 fn open_folder(folder_path: &str) -> String {
     let files = fc::read_directory(folder_path);
@@ -31,7 +25,11 @@ fn write_file(file_path: &str, content: &str) -> String {
 
 fn main() {
     tauri::Builder::default()
-        .invoke_handler(tauri::generate_handler![greet, open_folder, get_file_content, write_file])
+        .invoke_handler(tauri::generate_handler![
+            open_folder,
+            get_file_content,
+            write_file
+        ])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
 }

@@ -1,13 +1,13 @@
 {
   "build": {
-    "beforeDevCommand": "yarn dev",
-    "beforeBuildCommand": "yarn build",
+    "beforeDevCommand": "pnpm run dev",
+    "beforeBuildCommand": "pnpm run build",
     "devPath": "http://localhost:1420",
     "distDir": "../dist"
   },
   "package": {
-    "productName": "huditor",
-    "version": "0.0.0"
+    "productName": "sonic-wave-editor",
+    "version": "1.0.0"
   },
   "tauri": {
     "allowlist": {
@@ -28,7 +28,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.huditor.dev",
+      "identifier": "com.sonic-wave-editor.dev",
       "longDescription": "",
       "macOS": {
         "entitlements": null,

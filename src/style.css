@@ -3,35 +3,34 @@
 @tailwind utilities;
 
 html {
-  @apply bg-primary w-screen h-screen;
+  @apply bg-primary-100 w-screen h-screen;
 }
 
 .bg-darken {
-  background-color: #222426;
+  @apply bg-secondary-900;
 }
 
-.soure-item .source-codes {
+.source-item .source-codes {
   @apply pl-4 relative;
 }
 
 .source-item-active {
-  @apply bg-blue-800 text-gray-300;
+  @apply bg-primary-900;
 }
 
-.soure-item .source-codes:before {
+.source-item .source-codes:before {
   content: "";
   @apply absolute top-0 bottom-0 border-l border-dotted border-stone-500;
 }
 
 .inp {
-  @apply block w-full rounded-md outline-none shadow-sm sm:text-sm bg-primary;
-  @apply text-gray-200;
+  @apply block w-full rounded-md outline-none shadow-sm sm:text-sm bg-primary-100;
+  @apply text-secondary-100;
   @apply px-2 py-0.5;
 }
 
 #titlebar {
-  @apply flex items-center justify-between text-gray-300 pl-2;
-  background: #1c1c1c;
+  @apply flex items-center justify-between text-secondary-100 pl-2 bg-secondary-900;
   position: fixed;
   top: 0;
   left: 0;
@@ -50,7 +49,7 @@ html {
 }
 
 .titlebar-icon:hover {
-  background-color: #383838;
+  @apply bg-secondary-100 text-secondary-900
 }
 
 #ttb-close:hover {
@@ -62,7 +61,7 @@ html {
 }
 
 .project-explorer {
-  @apply w-full text-left uppercase text-gray-400 text-xs;
+  @apply w-full text-left uppercase text-secondary-100 text-xs;
 }
 
 .code-structure {

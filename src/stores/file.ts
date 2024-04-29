@@ -1,16 +1,15 @@
-import { IFile } from "../types"
+import { IFile } from '../types';
 
 interface IEntries {
-  [key: string]: IFile
+  [key: string]: IFile;
 }
 
-const entries: IEntries = {}
+const entries: IEntries = {};
 
 export const saveFileObject = (id: string, file: IFile): void => {
-  entries[id] = file
-}
+  entries[id] = file;
+};
 
 export const getFileObject = (id: string): IFile => {
-  return entries[id]
-}
-
+  return entries[id];
+};

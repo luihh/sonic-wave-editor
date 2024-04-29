@@ -1,0 +1,13 @@
+export { default as bracketsSky } from '../assets/brackets-sky.svg';
+export { default as codeOrange } from '../assets/code-orange.svg';
+export { default as document } from '../assets/document.svg';
+export { default as git } from '../assets/git.svg';
+export { default as image } from '../assets/image.svg';
+export { default as javascript } from '../assets/javascript.svg';
+export { default as logo } from '../assets/logo.png';
+export { default as markdown } from '../assets/markdown.svg';
+export { default as nodejs } from '../assets/nodejs.svg';
+export { default as react } from '../assets/react.svg';
+export { default as reactTS } from '../assets/react-ts.svg';
+export { default as rust } from '../assets/rust.svg';
+export { default as typescript } from '../assets/typescript.svg';
